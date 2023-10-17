@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tema3_VisorImagenes"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="600" Width="800" MinWidth="600">
     <DockPanel Margin="5">
         
         <DockPanel LastChildFill="False" DockPanel.Dock="Bottom"  Background="LightBlue" Height="60">
@@ -26,8 +26,9 @@
                     <Button Margin="3">Eliminar todas</Button>
                 </StackPanel>
 
-                <StackPanel>
-                    <Button></Button>
+                <StackPanel DockPanel.Dock="Bottom">
+                    <Button Margin="3">Rotar</Button>
+                    <Button Margin="3">Recortar</Button>
                 </StackPanel>
 
 
