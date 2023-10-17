@@ -6,26 +6,39 @@
         xmlns:local="clr-namespace:Tema3_Formulario"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <DockPanel>
+    <DockPanel LastChildFill="True">
         <StackPanel DockPanel.Dock="Top">
-            <TextBlock FontSize="20" FontWeight="Bold" HorizontalAlignment="Center">Formulario</TextBlock> 
+            <TextBlock FontSize="20" FontWeight="Bold" HorizontalAlignment="Center">Formulario</TextBlock>
         </StackPanel>
-        
-            <DockPanel LastChildFill="False" DockPanel.Dock="Bottom"  Height="40">
+
+        <DockPanel LastChildFill="False" DockPanel.Dock="Bottom"  Height="40">
 
 
-                <TextBlock DockPanel.Dock="Left" VerticalAlignment="Center" FontSize="20">David cascales</TextBlock>
+            <TextBlock DockPanel.Dock="Left" VerticalAlignment="Center" FontSize="20">David cascales</TextBlock>
 
             <DockPanel DockPanel.Dock="Right" Margin="5">
                 <Button Margin="4">Aceptar</Button>
                 <Button Margin="4">Cancelar</Button>
-                
-            </DockPanel>
-                
-
 
             </DockPanel>
+
+
+
+        </DockPanel>
         <Image DockPanel.Dock="Right" Source="/Resources/foto.jpg"></Image>
-            
+        <DockPanel DockPanel.Dock="Right">
+
+            <Border BorderBrush="Black" BorderThickness="3">
+                <StackPanel>
+                    <Button>Hola</Button>
+                </StackPanel>
+            </Border>
+
+            <StackPanel>
+
+            </StackPanel>
+        </DockPanel>
+
+
     </DockPanel>
 </Window>
