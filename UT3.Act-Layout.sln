@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tema3-VisorImagenes", "Tema
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tema3-Calculadora", "Tema3-Calculadora\Tema3-Calculadora.csproj", "{402C6995-1B76-4AED-AC60-B18642A976D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tema3-Estaciones", "Tema3-Estaciones\Tema3-Estaciones.csproj", "{3AF15CA3-6BAF-47F3-857F-F281E0BA49C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{402C6995-1B76-4AED-AC60-B18642A976D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{402C6995-1B76-4AED-AC60-B18642A976D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{402C6995-1B76-4AED-AC60-B18642A976D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AF15CA3-6BAF-47F3-857F-F281E0BA49C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF15CA3-6BAF-47F3-857F-F281E0BA49C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF15CA3-6BAF-47F3-857F-F281E0BA49C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF15CA3-6BAF-47F3-857F-F281E0BA49C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
