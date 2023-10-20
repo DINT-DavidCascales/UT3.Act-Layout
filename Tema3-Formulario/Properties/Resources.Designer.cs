@@ -69,5 +69,15 @@ namespace Tema3_Formulario.Properties {
                 return ((byte[])(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        internal static byte[] info {
+            get {
+                object obj = ResourceManager.GetObject("info", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }
